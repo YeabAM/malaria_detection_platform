@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'corsheaders',
-    'mlApi',
+    'mlApi',  
     'drf_yasg',
     'rest_framework',
     'Final_Project',
