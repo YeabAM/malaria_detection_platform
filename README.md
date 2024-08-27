@@ -6,6 +6,10 @@ This project is a deep learning-based malaria detection system that uses Convolu
 
 Malaria is a life-threatening disease caused by parasites that are transmitted to humans through the bites of infected mosquitoes. Early and accurate diagnosis is critical for effective treatment. This system automates the detection of malaria from blood smear images, providing a fast, reliable, and scalable solution. The system not only identifies the presence of malaria but also classifies the specific Plasmodium strain (e.g., _P. falciparum_, _P. vivax_, etc.), assisting in the selection of appropriate treatment.
 
+## ML Folder
+
+The ML inference pipeline is under the  `MLApi` folder and inside there is a folder called `MLFunc`
+
 ## Technology
 
 - **TensorFlow:** Used for building and training the Convolutional Neural Network (CNN) model that detects and classifies malaria from blood smear images.
